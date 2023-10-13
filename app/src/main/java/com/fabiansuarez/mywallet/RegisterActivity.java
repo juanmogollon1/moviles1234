@@ -16,8 +16,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void irlogin(View view){
-        Intent myintent =new Intent(this, LoginActivity.class);
-        startActivity(myintent);
+        finish();
 
     }
 }
