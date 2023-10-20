@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#E8E5E5"
+        android:background="#FFFFFF"
         android:orientation="vertical">
 
         <TextView
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:gravity="center"
-            android:text="Log In"
+            android:text="INGRESO"
             android:textColor="#CC0E0E"
             android:textSize="24sp" />
 
@@ -45,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
+            android:backgroundTint="@color/my_green_color"
             android:text="Iniciar sesión"
             android:textColorHighlight="#BD0D0D"
             android:textColorHint="#D11717"
@@ -56,6 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
+            android:backgroundTint="@color/my_secundary_color"
             android:onClick="irregistro"
             android:text="Registrar"
             android:textSize="16sp" />
